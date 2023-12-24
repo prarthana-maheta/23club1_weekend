@@ -1,4 +1,29 @@
 
+
+
+
+
+
+a,b,c,d,e,f=1,2,3,4,5,6
+abc="hello"
+zyx=13.56
+print(f"Type of abc is{type(a)}")
+print(type(abc))
+print(type(zyx))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 print("Hello World")
 
 # """
