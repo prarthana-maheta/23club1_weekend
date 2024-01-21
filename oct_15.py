@@ -170,8 +170,8 @@ s1='rOYAL hbchsc'
 # # # print(s2)	# strings are immutable so, methods of strings cannot change the original string. Instead, they will return a new string.
 print( s1.capitalize())
 # print( s1[4].capitalize())
-# print(s1.upper())
-# print(s1.lower())
+print(s1.upper())
+print(s1.lower())
 print(s1.swapcase())
 print(s1.title())
 

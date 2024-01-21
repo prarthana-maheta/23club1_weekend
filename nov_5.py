@@ -100,7 +100,7 @@ print(s1.rindex("r", 20, -20))
 """
 
 s1 = "The students in royal are awesome"
-
+# s1.count('  ')
 # vowels -(aeiou)
 #
 # encrypt and decrypt

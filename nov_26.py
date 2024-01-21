@@ -139,11 +139,11 @@ s8 = "二千二十二"
 # s6 = "ab     dh"
 # print(s6.isidentifier())
 # # # #
+# # # # #
+# s7 = "abc\\n"
+# # print(s7.isspace())
+# print(s7.isprintable())
 # # # #
-s7 = "abc\\n"
-# print(s7.isspace())
-print(s7.isprintable())
-# # #
 # # # """
 # # # The difference between isnumeric, isdigit & isdecimal
 # # # """
@@ -164,7 +164,7 @@ print(s7.isprintable())
 
 s6 = 'students of this batch are going to rock the indian software industry!Because they are very sincere.They also do their homework on time.        '
 print(s6)
-# print(s6.split("are",2))
+print(s6.split(" "))
 # # print(s6.split("are")) #return list
 # # # print(s6.split("z"))
 # # print(s6.split(" ", 4))
@@ -188,18 +188,18 @@ s6 = 'students of this batch are going to rock the indian software industry!Beca
 # print(s6)
 
 # s8 = "--"
-# print(s6.split(" "))
-# s9 = s8.join(132)
-# print(s9)
+print(s6.split(" "))
+s9 = '*'.join(s6.split(" "))
+print(s9)
 # s9 = s8.join(s6.split(" "))
 # print(s9)
 
 # s1="   a b     c   b\n"
 # print(s1.strip())
 
-s1= "abc"
-print(s1)
-print(s1.replace("a","b"))
+# s1= "abc"
+# print(s1)
+# print(s1.replace("a","b"))
 # # #
 # # # # print(" ".join(s8))
 # # #
