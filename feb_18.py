@@ -175,6 +175,7 @@ thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 # # #
 # # # print(x)
 
+
 # Write a Python program to remove an item from a tuple.
 
 
@@ -198,6 +199,9 @@ thistuple = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
 # string values to a tuple of integer values.
 # Original tuple values:
 t1=(('333', '33'), ('1416', '55'))
+
+
+
 # New tuple values:
 # ((333, 33), (1416, 55))
 # t2=list(t1)
@@ -211,6 +215,9 @@ t1=(('333', '33'), ('1416', '55'))
 # print(tuple(t2))
 
 # print(isinstance(123,str))
+
+
+
 # Write a Python program to convert a given tuple
 # of positive integers into an integer.
 # Original tuple:
@@ -221,3 +228,23 @@ t1=(('333', '33'), ('1416', '55'))
 # (10, 20, 40, 5, 70)
 # Convert the said tuple of positive integers into an integer:
 # 102040570
+
+# Write a Python program to compute the element-wise sum of given tuples.
+# Original lists:
+# (1, 2, 3, 4)
+# (3, 5, 2, 1)
+# (2, 2, 3, 1)
+# Element-wise sum of the said tuples:
+# (6, 9, 8, 6)
+t1=(1, 2, 3, 4)
+t2=(3, 5, 2, 1)
+t3=(2, 2, 3, 1)
+list1=[t1,t2,t3]
+
+results = [0]*len(list1[0])
+# print(results)
+for t in list1:
+    for i in range(len(t)):
+        results[i] += t[i]
+    # print(t)
+print(results)
